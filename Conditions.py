@@ -17,6 +17,11 @@ else:
 # for i in range(2,20):
 #     print(i+1)  # This loop will execute n-1 times for this case 2 to 19
 
-for i in range(2,20,2):
-    print(i) # this loop will start from 2 to 20-1 and increment by 2, so output will be even numbers
-    
+# for i in range(2,20,2):
+#     print(i) # this loop will start from 2 to 20-1 and increment by 2, so output will be even numbers
+
+number  = int(input("Enter your number"))
+
+for i in range(1,11):
+    # print(str(number) + " X " + str(i) + " = " + str(i * number))
+    print(f"{number} X {i} = {i * number}")
