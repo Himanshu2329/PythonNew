@@ -1,13 +1,13 @@
-age = int(input("Enter your age\n"))
-if age==18:
-    print("You are an adult")
-elif age==19:
-    print("bhg ja")
-# elif age>19 | age <21:  #logical error 
-elif age>19 and age<21:
-    print("best h bhai")    
-else:
-    print("chla ja")        
+# age = int(input("Enter your age\n"))
+# if age==18:
+#     print("You are an adult")
+# elif age==19:
+#     print("bhg ja")
+# # elif age>19 | age <21:  #logical error 
+# elif age>19 and age<21:
+#     print("best h bhai")    
+# else:
+#     print("chla ja")        
 
 # Loops
 
@@ -20,8 +20,25 @@ else:
 # for i in range(2,20,2):
 #     print(i) # this loop will start from 2 to 20-1 and increment by 2, so output will be even numbers
 
-number  = int(input("Enter your number"))
+# number  = int(input("Enter your number"))
 
-for i in range(1,11):
-    # print(str(number) + " X " + str(i) + " = " + str(i * number))
-    print(f"{number} X {i} = {i * number}")
+# for i in range(1,11):
+#     # print(str(number) + " X " + str(i) + " = " + str(i * number))
+#     print(f"{number} X {i} = {i * number}")
+
+for i in range(100,0,-1):
+    print(i)    
+
+# for i in range(1,101):
+#     if i%3==0 :
+#         print(f"{i} foo")
+#     elif i%5==0:
+#         print(f"{i} bar")        
+
+for i in range(0,100):
+    if not i%3 and not i%5:
+        print(f"{i} foo bar")
+    elif not i%3:
+        print(f"{i} foo")
+    elif not i%5:
+        print(f"{i} barr")    
