@@ -42,3 +42,11 @@ for i in range(0,100):
         print(f"{i} foo")
     elif not i%5:
         print(f"{i} barr")    
+
+
+# while loop
+start = 1
+end = 10
+while(start<=end):
+    print(start)
+    start+=1
